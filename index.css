@@ -1,0 +1,79 @@
+/* Estilo general */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+/* Encabezado */
+header {
+    background-color: #396654;
+    color: white;
+    padding: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+/* Menú de navegación */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+/* Secciones */
+.section {
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 900px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Títulos */
+h2 {
+    font-size: 2rem;
+    color: #333;
+}
+
+/* Párrafos */
+p {
+    font-size: 1.2rem;
+    color: #444;
+}
+
+/* Imágenes */
+img {
+    width: 100%;
+    max-width: 700px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+/* Pie de página */
+footer {
+    background-color: #396654;
+    color: white;
+    padding: 15px;
+    margin-top: 20px;
+    font-size: 1rem;
+}
